@@ -48,13 +48,13 @@ module universal_shift_tb;
 
     // Shift Right: sel_line = 01
     sel_line = 2'b01;
-    lsb_in = 1'b1;  // lsb
+    msb_in = 1'b1;  // msb
     #10;
     #10;
 
     // Shift Left: sel_line = 10
     sel_line = 2'b10;
-    msb_in = 1'b0;  // msb
+    lsb_in = 1'b0;  // lsb
     #10;
     #10;
 
