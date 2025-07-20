@@ -8,7 +8,6 @@ module tb_d_ff;
     logic q;
     logic qbar;
 
-    // Instantiate the D Flip-Flop module
     d_ff dut (
         .din(din),
         .clk(clk),
